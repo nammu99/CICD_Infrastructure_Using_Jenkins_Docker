@@ -10,7 +10,7 @@ resource "aws_instance" "docker_server" {
   }
 }
 
-resource "aws_instance" "tomcatt_server" {
+resource "aws_instance" "tomcat_server" {
   ami             = "ami-060d3509162bcc386"
   instance_type   = "t2.micro"
   key_name = "nameera"
