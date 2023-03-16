@@ -18,7 +18,6 @@ stages{
         steps{
             sh 'terraform apply --auto-approve'
         }
-        set+e
     }
 }
 }
